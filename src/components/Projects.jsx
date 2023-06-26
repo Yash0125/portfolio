@@ -115,7 +115,7 @@ const Projects = () => {
           <p className="py-6">Check out some of my work right here</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-8 px-12 sm:px-0">
           {project.map(
             ({ id, title, techStack, src, liveDemo, sourceCode }) => (
               <div key={id} className="shadow shadow-gray-600 rounded-lg">
