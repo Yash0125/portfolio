@@ -4,6 +4,12 @@ import project2 from "../image/project2.png";
 import project3 from "../image/project3.png";
 import project4 from "../image/project4.png";
 import project5 from "../image/project5.png";
+import project6 from "../image/project6.png";
+import project7 from "../image/project7.png";
+import project8 from "../image/project8.png";
+import project9 from "../image/project9.png";
+import project10 from "../image/project10.png";
+import project11 from "../image/project11.png";
 
 const Projects = () => {
   const project = [
@@ -47,11 +53,59 @@ const Projects = () => {
       liveDemo: "https://github.com/Yash0125/speednews",
       sourceCode: "https://github.com/Yash0125/speednews",
     },
+    {
+      id: 6,
+      src: project6,
+      title: "Pokedex",
+      techStack: "HTML,CSS,Javascript,React.js",
+      liveDemo: "https://pokedex-react-js-app.netlify.app/",
+      sourceCode: "https://github.com/Yash0125/pokedex",
+    },
+    {
+      id: 7,
+      src: project7,
+      title: "Quiz App",
+      techStack: "HTML,CSS,Javascript,React.js",
+      liveDemo: "https://quiz-app-frontend-dev.netlify.app/",
+      sourceCode: "https://github.com/Yash0125/quiz-app",
+    },
+    {
+      id: 8,
+      src: project8,
+      title: "Typing Test",
+      techStack: "HTML,CSS,Javascript,React.js",
+      liveDemo: "https://typing-test-in-react.netlify.app/",
+      sourceCode: "https://github.com/Yash0125/typing-test",
+    },
+    {
+      id: 9,
+      src: project9,
+      title: "EMI Calculator",
+      techStack: "HTML,CSS,Javascript,React.js",
+      liveDemo: "https://emi-calculator-for-loan-using-react.netlify.app/",
+      sourceCode: "https://github.com/Yash0125/emi-calculator",
+    },
+    {
+      id: 10,
+      src: project10,
+      title: "Image Slider",
+      techStack: "HTML,CSS,Javascript,React.js",
+      liveDemo: "https://image-slider-reactjs-assignment.netlify.app/",
+      sourceCode: "https://github.com/Yash0125/image-slider",
+    },
+    {
+      id: 11,
+      src: project11,
+      title: "Analog Clock",
+      techStack: "HTML,CSS,Javascript",
+      liveDemo: "https://analog-clock-javascript-css.netlify.app/",
+      sourceCode: "https://github.com/Yash0125/clock",
+    },
   ];
   return (
     <div
       name="projects"
-      className="w-full bg-gradient-to-b from-black to-gray-800 text-white md:h-screen"
+      className="w-full bg-gradient-to-b from-black to-gray-800 text-white xs:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
