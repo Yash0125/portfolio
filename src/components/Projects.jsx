@@ -17,6 +17,7 @@ const Projects = () => {
       id: 1,
       title: "CloudNET",
       techStack: "HTML,CSS,Javascript,React.js",
+      description:`Your go-to video library app, featuring seamless playback, intuitive search, and a handy "watch later" function. Crafted with 93% accessibility.`,
       src: project1,
       liveDemo: "https://cloud-net.netlify.app/",
       sourceCode: "https://github.com/Yash0125/cloudnet",
@@ -26,6 +27,7 @@ const Projects = () => {
       src: project2,
       title: "YourNotes",
       techStack: "HTML,CSS,Javascript,React.js",
+      description:"An elegant note-taking app with seamless add, save, and search functionalities. It offers a unique toggle mode and a responsive UI crafted with vanilla CSS. ",
       liveDemo: "https://your-notes-note-app.netlify.app/",
       sourceCode: "https://github.com/Yash0125/your-notes",
     },
@@ -34,6 +36,7 @@ const Projects = () => {
       title: "Emart",
       src: project3,
       techStack: "HTML,CSS,Javascript,React.js",
+      description:"Presented a dynamic product listing with efficient cart management. Leveraged React hooks like UseContext and UseReducer for seamless global state management.",
       liveDemo: "https://emart-e-commerce-website.netlify.app/",
       sourceCode: "https://github.com/Yash0125/emart",
     },
@@ -42,6 +45,7 @@ const Projects = () => {
       src: project4,
       title: "WeatherLens",
       techStack: "HTML,CSS,Javascript",
+      description:"Experience real-time weather updates including temperature, wind speed, and humidity. Effortlessly search for real-time data in any city. ",
       liveDemo: "https://weather-lens-weather-app.netlify.app/",
       sourceCode: "https://github.com/Yash0125/weather-lens",
     },
@@ -50,6 +54,7 @@ const Projects = () => {
       src: project5,
       title: "SpeedNews",
       techStack: "HTML,CSS,Javascript,React.js",
+      description:"Enjoy customized, up-to-the-minute news spanning business, sports, and tech. Infinite scroll adds seamless browsing, while Bootstrap ensures responsive design. ",
       liveDemo: "https://github.com/Yash0125/speednews",
       sourceCode: "https://github.com/Yash0125/speednews",
     },
@@ -58,6 +63,7 @@ const Projects = () => {
       src: project6,
       title: "Pokedex",
       techStack: "HTML,CSS,Javascript,React.js",
+      description:"Explore a comprehensive Pokemon list, with bookmarking and search functionalities. Effortlessly manage your favorites, remove them, and even filter by strength.",
       liveDemo: "https://pokedex-react-js-app.netlify.app/",
       sourceCode: "https://github.com/Yash0125/pokedex",
     },
@@ -66,6 +72,7 @@ const Projects = () => {
       src: project7,
       title: "Quiz App",
       techStack: "HTML,CSS,Javascript,React.js",
+      description:"Test your knowledge in a one-minute quiz. Race against the timer, answer questions, and receive a score out of 5 along with your completion time.",
       liveDemo: "https://quiz-app-frontend-dev.netlify.app/",
       sourceCode: "https://github.com/Yash0125/quiz-app",
     },
@@ -74,6 +81,7 @@ const Projects = () => {
       src: project8,
       title: "Typing Test",
       techStack: "HTML,CSS,Javascript,React.js",
+      description:" Put your typing skills to the test with a 5-minute paragraph challenge. Receive an accuracy score and words per minute result based on your performance.",
       liveDemo: "https://typing-test-in-react.netlify.app/",
       sourceCode: "https://github.com/Yash0125/typing-test",
     },
@@ -82,6 +90,7 @@ const Projects = () => {
       src: project9,
       title: "EMI Calculator",
       techStack: "HTML,CSS,Javascript,React.js",
+      description:"Easily determine your repayment amount with this app. Input the loan amount, interest rate, and tenure, and instantly receive the calculated EMI value you need to pay.",
       liveDemo: "https://emi-calculator-for-loan-using-react.netlify.app/",
       sourceCode: "https://github.com/Yash0125/emi-calculator",
     },
@@ -90,6 +99,7 @@ const Projects = () => {
       src: project10,
       title: "Image Slider",
       techStack: "HTML,CSS,Javascript,React.js",
+      description:"Navigate through images effortlessly using previous and next buttons, or engage the slideshow mode for a hands-free experience.",
       liveDemo: "https://image-slider-reactjs-assignment.netlify.app/",
       sourceCode: "https://github.com/Yash0125/image-slider",
     },
@@ -98,6 +108,7 @@ const Projects = () => {
       src: project11,
       title: "Analog Clock",
       techStack: "HTML,CSS,Javascript",
+      description:"Enjoy the simplicity of a classic analog watch on your device. This app provides you with the time in the traditional analog format.",
       liveDemo: "https://analog-clock-javascript-css.netlify.app/",
       sourceCode: "https://github.com/Yash0125/clock",
     },
@@ -117,7 +128,7 @@ const Projects = () => {
 
         <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-8 px-12 sm:px-0">
           {project.map(
-            ({ id, title, techStack, src, liveDemo, sourceCode }) => (
+            ({ id, title, techStack, src, liveDemo,description, sourceCode }) => (
               <div key={id} className="shadow shadow-gray-600 rounded-lg">
                 <img
                   src={src}
@@ -131,6 +142,10 @@ const Projects = () => {
                 <p className="text-xl ml-4 mt-4">
                   TechStack :{" "}
                   <span className="text-md text-cyan-600">{techStack}</span>
+                </p>
+                <p className="text-xl ml-4 mt-4">
+                  Description :{" "}
+                  <span className="text-sm text-cyan-600">{description}</span>
                 </p>
                 <div className="flex items-center justify-center">
                   <button
