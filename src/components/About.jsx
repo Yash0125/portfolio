@@ -13,19 +13,17 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-15">
-          I'm a web developer.As previously stated, I completed five projects:
-          four in React and one in JavaScript. I made an e-commerce website, a
-          video library app, a weather app, a news app, and a note app. In that
-          project, I used context-api, fetch API, and other libraries like
-          react-router-dom, react-icons, react-scroll, etc.I utilised the
-          Material Ui and Bootstrap CSS libraries.
+          I'm a web developer. I'm proficient in HTML, CSS, JavaScript, React
+          JS; plus modern css libraries like Material UI and Tailwind CSS. I design & develop web
+          apps using the latest technologies to deliver the high-quality
+          products. constantly open to learning new things
         </p>
         <br />
         <p className="text-xl">
           Ability to create innovative, creative, & interactive web designs to
           boost customer engagement. Sound knowledge in HTML5, CSS , Javascript,
           React.js. Build reusable code for future use while optimising web
-          performance.constantly open to learning new things
+          performance.
         </p>
       </div>
     </div>

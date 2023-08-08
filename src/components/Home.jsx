@@ -16,10 +16,7 @@ const Home = () => {
           <p className="text-gray-50 py-4 max-w-md">
             My name is Yash Kumavat. I have 6 month self-learning experience of
             HTML, CSS, Javascript and React.js. I love to explore and learn new
-            technologies and making projects. I have made 4 projects in react
-            and 1 project in vanilla javascript.I have also apply context-api
-            ,react-router-dom , material ui etc.I design & develop web apps
-            using the latest technologies to deliver the high-quality products.
+            technologies and making projects. I like to code things from scratch and enjoy turning complex problems into simple, beautiful and intuitive interfaces.
           </p>
           <div>
             <Link
