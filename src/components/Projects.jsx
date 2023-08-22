@@ -10,6 +10,7 @@ import project8 from "../image/project8.png";
 import project9 from "../image/project9.png";
 import project10 from "../image/project10.png";
 import project11 from "../image/project11.png";
+import project12 from "../image/project12.png";
 
 const Projects = () => {
   const project = [
@@ -111,6 +112,15 @@ const Projects = () => {
       description:"Enjoy the simplicity of a classic analog watch on your device. This app provides you with the time in the traditional analog format.",
       liveDemo: "https://analog-clock-javascript-css.netlify.app/",
       sourceCode: "https://github.com/Yash0125/clock",
+    },
+    {
+      id: 12,
+      src: project12,
+      title: "TicTacToe",
+      techStack: "React",
+      description:"Discover our React-powered Tic-Tac-Toe app! Play classic X and O with a twist – take on our advanced AI bot in this single-player adventure.",
+      liveDemo: "https://tic-tac-toe-react-js-hooks.netlify.app/",
+      sourceCode: "https://github.com/Yash0125/tic-tac-toe",
     },
   ];
   return (
